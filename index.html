@@ -95,66 +95,6 @@
         <!-- EMI result end -->
       </section>
       <!-- EMI INPUT section starts -->
-
-      <!-- CHART section starts -->
-      <section id="emi-chart-section" class="emi-chart-section">
-        <!-- CHART SVG starts -->
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 60 60"
-          width="60"
-          height="60"
-          class="emi-donut-chart"
-        >
-          <circle
-            id="principal-chart-slice"
-            r="20"
-            cx="30"
-            cy="30"
-            fill="transparent"
-            stroke="#1d9da7"
-            stroke-dasharray="calc(100 * (2 * 3.14 * 20) / 100) calc(2 * 3.14 * 20)"
-            stroke-width="0.75rem"
-            transform="rotate(-90) translate(-60)"
-          ></circle>
-          <circle
-            id="interest-chart-slice"
-            r="20"
-            cx="30"
-            cy="30"
-            fill="transparent"
-            stroke="#352b4b"
-            stroke-width="0.75rem"
-            transform="rotate(-90) translate(-60)"
-          ></circle>
-        </svg>
-        <!-- CHART SVG ends -->
-
-        <!-- CHART INNER TEXT starts -->
-        <div class="chart-inner-text">
-          <div>Total Amount</div>
-          <h4 id="chart-total-amount"></h4>
-        </div>
-        <!-- CHART INNER TEXT ends -->
-
-        <!-- CHART LEGENDS start -->
-        <div class="chart-legends">
-          <div class="chart-legend">
-            <div>
-              <span class="legend-dot principal-legend-dot"></span>
-              <span>Principal Amount</span>
-            </div>
-            <h4 id="principal-chart-legend"></h4>
-          </div>
-          <div class="chart-legend">
-            <span class="legend-dot interest-legend-dot"></span>
-            <span>Interest Amount</span>
-            <h4 id="interest-chart-legend"></h4>
-          </div>
-        </div>
-        <!-- CHART LEGENDS end -->
-      </section>
-      <!-- CHART section ends -->
     </main>
   </body>
 </html>
